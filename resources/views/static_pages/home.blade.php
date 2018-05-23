@@ -2,7 +2,7 @@
 
 @section('content')
 	<div class="jumbotron">
-		<h1>Hello Blog-wandx</h1>
+		<h1>Hello Blog - wandx</h1>
 		<p class="lead">
 			你现在所看到的是Blog wandx 
 		</p>
@@ -10,7 +10,7 @@
 			一切，将从这里开始。
 		</p>
 		<p>
-			<a class="btn btn-lg btn-success" href="#" role="button">现在注册</a>
+			<a class="btn btn-lg btn-success" href="{{ route('signup') }}" role="button">现在注册</a>
 		</p>
 	</div>
 
