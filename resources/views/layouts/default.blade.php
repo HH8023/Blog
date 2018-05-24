@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>@yield('title','Blog') - wandx </title>
-	<link rel="stylesheet" href="./css/app.css">
+	<link rel="stylesheet" href="/css/app.css">
 </head>
 <body>
 	
