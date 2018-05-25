@@ -2,7 +2,6 @@
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
-
 $navbar-color: #3c3e42;
 
 /* universal */
@@ -69,6 +68,12 @@ p {
     color: #fff;
   }
 }
+#logout {
+  cursor: default;
+  &:hover {
+    background-color: transparent;
+  }
+}
 
 /* footer */
 
@@ -110,6 +115,7 @@ footer {
     font-weight: bold;
   }
 }
+
 
 /* sidebar */
 
@@ -156,6 +162,7 @@ section.user_info {
 
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
+  width: 100%;
   margin-bottom: 15px;
 }
 
