@@ -4,7 +4,11 @@
       <a href="{{ route('home') }}" id="logo">Blog - wandx</a>
       <nav>
         <ul class="nav navbar-nav navbar-right">
+<<<<<<< HEAD
            @if (Auth::check())
+=======
+          @if (Auth::check())
+>>>>>>> login-logout
             <li><a href="#">用户列表</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
